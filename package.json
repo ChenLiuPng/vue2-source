@@ -1,0 +1,29 @@
+{
+  "name": "vue2-source",
+  "version": "1.0.0",
+  "description": "手写vue2 以及相关实现原理",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenLiuPng/vue2-source.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChenLiuPng/vue2-source/issues"
+  },
+  "homepage": "https://github.com/ChenLiuPng/vue2-source#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "rollup": "^2.58.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
